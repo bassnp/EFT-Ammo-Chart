@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="21VOG-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21VOG-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1PM PSV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1PM PSV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="17BZT-44M" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\17BZT-44M.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18Dual Sabot Slug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18Dual Sabot Slug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1PM Pst gzh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1PM Pst gzh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="185.25mm Buckshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\185.25mm Buckshot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11M61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11M61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10BP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10BP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18.50 BMG Slug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18.50 BMG Slug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1PM SP7 gzh " type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1PM SP7 gzh .png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10T45M" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10T45M.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6R37.X" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6R37.X.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="22M406" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\22M406.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9AP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9AP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11M62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11M62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13FMJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13FMJ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3SP11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3SP11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18Poleva - 3 Slug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18Poleva - 3 Slug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7US" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7US.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8M855" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8M855.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="17B-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\17B-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="22M433" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\22M433.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6R37.F" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6R37.F.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11BPZ FMJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11BPZ FMJ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13TAC-X" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13TAC-X.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="127N1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\127N1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="22M381" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\22M381.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2RIP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2RIP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2PSO gzh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2PSO gzh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2Pst gzh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Pst gzh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7BT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7BT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11Ultra Nosler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11Ultra Nosler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="197.3mm Buckshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\197.3mm Buckshot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="19Devastator Slug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\19Devastator Slug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6L191" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6L191.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1PM SP8 gzh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1PM SP8 gzh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="19Slug Poleva - 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\19Slug Poleva - 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="22M576" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\22M576.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8M856" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8M856.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="19Slug Poleva-6u" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\19Slug Poleva-6u.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="186.5 mm Express Buckshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\186.5 mm Express Buckshot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8Warmage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Warmage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11M993" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11M993.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="196.2mm Buckshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\196.2mm Buckshot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0TT PT gzh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0TT PT gzh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5FMJ SX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5FMJ SX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12SNB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12SNB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7BS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7BS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="855 HP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\855 HP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="188.5 mm Magnum Buckshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\188.5 mm Magnum Buckshot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="22M386" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\22M386.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1PM PPT gzh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1PM PPT gzh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0TT AKBS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0TT AKBS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6SB193" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6SB193.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15Geksa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15Geksa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10PS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10PS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15FMJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15FMJ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5Subsonic SX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Subsonic SX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7BP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7BP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="195.6mm Buckshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\195.6mm Buckshot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6SS190" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6SS190.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7FMJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7FMJ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12T-46M" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12T-46M.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3SP10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3SP10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1PM 9 BZT gzh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1PM 9 BZT gzh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1PM PPe gzh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1PM PPe gzh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0TT LRN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0TT LRN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10HP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10HP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1PM PRS gs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1PM PRS gs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="16PS12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16PS12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20Shrapnel-25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20Shrapnel-25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13AP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13AP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="19Star Slug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\19Star Slug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7PRS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7PRS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7PP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7PP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18Grizzly 40 Slug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18Grizzly 40 Slug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9BPZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9BPZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18FTX Custom Lite Slug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18FTX Custom Lite Slug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8M995" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8M995.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2Green Tracer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Green Tracer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="22M441" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\22M441.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15EKO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15EKO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="16PS12B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16PS12B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1PM 9 P gzh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1PM 9 P gzh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1PM PBM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1PM PBM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6SS198LF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6SS198LF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1PM PMM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1PM PMM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0TT FMJ43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0TT FMJ43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0TT Pst gzh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0TT Pst gzh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11M80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11M80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7SP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7SP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0TT P gl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0TT P gl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18HP Slug Copper Sabot Premier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18HP Slug Copper Sabot Premier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="16PS12A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16PS12A.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11TPZ SP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11TPZ SP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7PS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7PS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14SP-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14SP-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="147N12 BP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\147N12 BP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3SP13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3SP13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7T" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7T.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18AP-20 Slug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18AP-20 Slug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18HP Slug SuperFormance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18HP Slug SuperFormance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14SP-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14SP-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18Poleva-6u Slug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18Poleva-6u Slug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13UPZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13UPZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="187mm Buckshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\187mm Buckshot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8M856A1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8M856A1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1PM PS gs PPO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1PM PS gs PPO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0TT LRNPC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0TT LRNPC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5AP SX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5AP SX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18Led slug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18Led slug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="855 FMJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\855 FMJ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="127BT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\127BT1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1PM PSO gzh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1PM PSO gzh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="77N39 Igolnik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\77N39 Igolnik.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6SS197SR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6SS197SR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15AP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15AP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20Star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20Star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="147N9 SPP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\147N9 SPP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="27N31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\27N31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8Mk 255 Mod 0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Mk 255 Mod 0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5Action SX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Action SX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10US" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10US.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2Luger CCI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Luger CCI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2AP 6.3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2AP 6.3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18Flechette" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18Flechette.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20Barricade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20Barricade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18RIP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18RIP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="197.5mm Buckshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\197.5mm Buckshot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3SP12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3SP12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1PM RG028 gzh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1PM RG028 gzh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12LPS Gzh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12LPS Gzh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8M855A1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8M855A1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2Quakemaker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Quakemaker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="127N37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\127N37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7HP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7HP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20Shrapnel-10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20Shrapnel-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4AP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4AP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4FMJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4FMJ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4Hydra-Shock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Hydra-Shock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4Lasermatch FMJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Lasermatch FMJ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4RIP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4RIP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

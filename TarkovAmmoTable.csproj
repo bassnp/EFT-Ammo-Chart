@@ -1,0 +1,586 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{11F23777-4878-428C-A0D4-FB1F05CBB4C5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TarkovAmmoForm</RootNamespace>
+    <AssemblyName>EFT Ammo Chart</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Interactive EFT Ammo Chart</ProductName>
+    <PublisherName>Bassn</PublisherName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>bullet %281%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>6EC334A747BAE10121A8BFC522D33557FD95269F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>TarkovAmmoTable_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TarkovAmmoTable_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0TT AKBS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0TT FMJ43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0TT LRN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0TT LRNPC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0TT P gl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0TT Pst gzh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0TT PT gzh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1PM 9 BZT gzh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1PM 9 P gzh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1PM PBM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1PM PMM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1PM PPe gzh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1PM PPT gzh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1PM PRS gs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1PM PS gs PPO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1PM PSO gzh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1PM Pst gzh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1PM PSV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1PM RG028 gzh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1PM SP7 gzh .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1PM SP8 gzh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2AP 6.3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2Green Tracer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2Luger CCI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2PSO gzh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2Pst gzh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2Quakemaker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2RIP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27N31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3SP10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3SP11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3SP12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3SP13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5Action SX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5AP SX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5FMJ SX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5Subsonic SX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6L191.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6R37.F.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6R37.X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6SB193.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6SS190.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6SS197SR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6SS198LF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7BP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7BS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7BT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7FMJ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7HP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7PP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7PRS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7PS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7SP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7T.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7US.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\77N39 Igolnik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8M855.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8M855A1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8M856.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8M856A1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8M995.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8Mk 255 Mod 0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8Warmage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\855 FMJ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\855 HP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9AP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9BPZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10BP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10HP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10PS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10T45M.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10US.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11BPZ FMJ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11M61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11M62.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11M80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11M993.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11TPZ SP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11Ultra Nosler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12LPS Gzh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12SNB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12T-46M.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\127BT1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\127N1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\127N37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13AP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13FMJ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13TAC-X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13UPZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14SP-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14SP-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\147N9 SPP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\147N12 BP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15AP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15EKO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15FMJ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15Geksa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16PS12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16PS12A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16PS12B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17B-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17BZT-44M.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18.50 BMG Slug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18AP-20 Slug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18Dual Sabot Slug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18Flechette.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18FTX Custom Lite Slug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18Grizzly 40 Slug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18HP Slug Copper Sabot Premier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18HP Slug SuperFormance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18Led slug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18Poleva - 3 Slug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18Poleva-6u Slug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18RIP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\185.25mm Buckshot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\186.5 mm Express Buckshot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\187mm Buckshot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\188.5 mm Magnum Buckshot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19Devastator Slug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19Slug Poleva - 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19Slug Poleva-6u.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19Star Slug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\195.6mm Buckshot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\196.2mm Buckshot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\197.3mm Buckshot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\197.5mm Buckshot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20Barricade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20Shrapnel-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20Shrapnel-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20Star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21VOG-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22M381.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22M386.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22M406.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22M433.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22M441.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22M576.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4AP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4FMJ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4Hydra-Shock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4Lasermatch FMJ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4RIP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bullet %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
